@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+img {
+    border-radius: 5px;
+}
+
+.imgPrincipal {
+    width: 90vw;
+}
+
+.imgMiniatura {
+    width: 400px;
+}
+
+table p {
+    margin: 0px 10px 10px 0px;
+}
+
+@media (max-width: 1800px) {
+    .imgPrincipal {
+        width: 90vw;
+    }    
+
+    .imgMiniatura {
+        width: 335px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .imgPrincipal {
+        width: 90vw;
+    }    
+
+    .imgMiniatura {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .imgPrincipal {
+        width: 90vw;
+    }    
+
+    .imgMiniatura {
+        width: 250px;
+    }
+}

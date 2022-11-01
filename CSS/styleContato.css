@@ -1,0 +1,52 @@
+form {
+    margin: 10px 0px 70px 0px;
+}
+
+fieldset {
+    width: 50vw;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+legend {
+    text-align: left;
+    margin-left: 150px;
+    font-size: 1.5em;
+}
+
+input, textarea {
+    text-align: left;
+    font-size: 0.9em;
+    margin: 10px 8px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+textarea {
+    resize: none;
+}
+
+.inputPadrao {
+    width: 327px;
+}
+
+.inputEndereco {
+    width: 96%;
+}
+
+
+button {
+    padding: 5px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin: 35px 0px 5px 0px;
+}
+
+@media (min-width: 1900px) {
+    form {
+        margin: 40px 0px 280px 0px;
+    }
+}

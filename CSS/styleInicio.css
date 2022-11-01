@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+img {
+    width: 450px;
+    margin: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+
+img:hover {
+    width: 475px;
+    transition: 0.5s;
+}
+
+@media (max-width: 1400px) {
+    img {
+        width: 400px;
+        margin: 15px;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+    
+    
+    img:hover {
+        width: 425px;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 1275px) {
+    img {
+        width: 350px;
+        margin: 15px;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+    
+    
+    img:hover {
+        width: 375px;
+        transition: 0.5s;
+    }
+}

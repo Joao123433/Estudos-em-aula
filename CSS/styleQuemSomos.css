@@ -1,0 +1,19 @@
+section {
+    margin: 50px 0px 750px 0px;
+}
+
+.pQuemSomos {
+    font-size: 1.1em;
+}
+
+@media (max-width: 1700px) {
+    section {
+        margin: 50px 0px 500px 0px;
+    }
+
+    .pQuemSomos {
+        margin: 0px 25px;
+        font-size: 17px;
+        font-size: 1.1em;
+    }
+}
